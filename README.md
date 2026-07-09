@@ -1,8 +1,7 @@
-# ☕ Java Architecture & Core Principles
+import java.util.Arrays;
 
-A collection of software engineering activities and design concepts implemented in Java. This repository showcases various structural patterns, object-oriented design solutions, and modular coding architectures designed for scalability and clean execution.
-
-## 🛠️ Key Areas Explored
-* **Object-Oriented Architecture:** Practical application of decoupled and maintainable class structures.
-* **Design Patterns:** Implementation of industry-standard solutions for common software development challenges.
-* **Code Refactoring:** Transitions from basic procedural logic into highly scalable, clean components.
+public class Knight extends Character {
+    public Knight() {
+        super(new SwingSword(), Arrays.asList(new Shield(), new Dodge(), new CreateMagicBarrier()));
+    }
+}
